@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url('/img/bg-body.png');
+    background-repeat: repeat;
+    padding: 0 100px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

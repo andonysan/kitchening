@@ -1,0 +1,94 @@
+/* HEADER */
+/* MAIN */
+    /* Banner */
+main.home .containt--banner-img{
+    width: 100%;
+    /* background: red; */
+    margin-bottom: 15px;
+}
+.containt--banner-img img{
+    width: 100%;
+    height: 100%;
+}
+/* ---------------------------------------------------- */
+    /* Section card */
+.containt--section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background: red; */
+    margin-top: 30px;
+}
+.containt--section .containt--section-card{
+    width: 370px;
+    margin-bottom: 15px;
+    /* background-color: greenyellow; */
+    box-sizing: border-box;
+}
+.card--section-img{
+    /* background-color: blue; */
+    position: relative;
+}
+.card--section-img .img-principal{
+    width: 100%;
+    
+}
+.card--section-img .img-etiqueta{
+    position: absolute;
+    right: 10px;
+}
+.card--section-img p{
+    position: absolute;
+    left: 0;
+    top: 85px;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.562);
+}
+.card--section-img p:hover{
+    cursor: pointer;
+}
+.img-principal:hover{
+    transform: scale(1.1);
+    z-index: 20;
+}
+.card--section-text{
+    /* background-color: aqua; */
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+.card--section-text p{
+    margin: 15px 0;
+    color: gray;
+}
+.card--section-text button{
+    color: white;
+    /* height: 100px; */
+    padding: 8px 15px;
+    background: rgba(0, 0, 0, 0.603);
+    border-style: none;
+}
+/* FOOTER */
+.footer--content{
+    margin-top: 10px;
+    width: 100%;
+    height: 150px;
+    background-color: red;
+    /* padding: 50px 0; */
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer--content nav ul li{
+    display: inline-flex;
+    /* padding: 0 5px; */
+}
+.footer--content nav ul li a{
+    color: white;
+    text-align: center;
+}
